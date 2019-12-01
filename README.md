@@ -11,3 +11,9 @@ About 26 images are not having date and for 71 images the dates are not visible 
 So, date found + date not mentioned and date not clear : 391 + 26 + 71 = 488
 488/595*100 = 82.016..
 That's why the new accuracy is 82.02%
+
+
+multiple_recipt.py is to find accuracy for multiple images
+single_receipt.py is to find dates in single image
+
+Note: images should be present in images folder only.
