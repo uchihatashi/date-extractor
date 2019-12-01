@@ -10,3 +10,6 @@ import pandas as pd
 
 from flask import Flask, render_template, request
 from flask_uploads import UploadSet, configure_uploads, IMAGES
+
+
+works properly for python 3.5 or below and above 2.6
