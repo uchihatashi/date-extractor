@@ -17,3 +17,6 @@ multiple_recipt.py is to find accuracy for multiple images
 single_receipt.py is to find dates in single image
 
 Note: images should be present in images folder only.
+
+
+Use RESTful API for making it work locally on your laptop using web browser.
