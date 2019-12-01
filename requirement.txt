@@ -1,0 +1,10 @@
+#libraries or dependencies 
+import numpy as np
+import pytesseract
+from PIL import Image, ImageEnhance
+import cv2
+import datefinder
+import datetime
+import os, fnmatch
+import pandas as pd
+
