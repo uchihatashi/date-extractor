@@ -9,6 +9,7 @@ And also if the date is present and it is recognized then +1 for the count.
 
 About 26 images are not having date and for 71 images the dates are not visible aa well as confusing
 So, date found + date not mentioned and date not clear : 391 + 26 + 71 = 488
+
 488/595*100 = 82.016..
 That's why the new accuracy is 82.02%
 
