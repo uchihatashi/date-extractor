@@ -54,18 +54,18 @@ def main_function(para):
     try:
         # some flags to help 
         fa_Date,found_date = 0,0
-        count_date = para.count("date") # counting date word is the receipt 
+        count_date = para.count("date") # counting date word in the receipt 
         _new_para = para
 
         if(count_date == 1): # if date word count is only 1 then it could be the receipt date 
             found_date = 1
-        # if date word count is more then 1 then there could be other dates too but we need to figure out 
-        # which is required. ie: "candidate" ist not a date but have date word in it 
+        # if date word count is more than 1 then there could be other dates too but we need to figure out 
+        # which is required. ie: "candidate" its not a word date but have date word in it. so we have to ignore those words.
         elif(count_date >1):
             i = 0          
             startpt = _new_para.find("date") # find() will help use getting index of first match 
             while (i < count_date):
-                # here we will find the actuat date word only not the mix one like "candidate" 
+                # here we will find the actual date word only, not the mix one like "candidate" 
                 if (startpt == 0):
                     found_date = 1
                     break 
