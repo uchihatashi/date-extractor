@@ -13,11 +13,8 @@ If you want to get the date of a  single receipt image then you can use this sin
 steps:
 
 1.Add that receipt image in the images folder.
-
 2.Run the single_recepit.py and it will ask to enter the name of the image 
-
 3.Enter the correct image/filename 
-
 4.Then it will return the date format in YYYY-mm-dd 
 
 
