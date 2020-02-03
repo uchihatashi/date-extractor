@@ -1,10 +1,9 @@
-#libraries or dependencies 
-import numpy as np
-import pytesseract
-from PIL import Image, ImageEnhance
-import cv2
-import datefinder
-import datetime
-import os, fnmatch
-import pandas as pd
+numpy==1.18.1
+datefinder==0.7.0
+opencv=4.1.2
+pandas==1.0.0
+pytesseract==0.3.0
+Pillow==7.0.0
+
+
 
