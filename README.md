@@ -35,15 +35,15 @@ Steps:
 
 4.open the file result.xls and you will notice three columns as filename, image_date, and recp_date
 
-a.#####image_date means whatever date which the model had captured while reading the receipt image, which could be in any formate 
+a.**image_date** means whatever date which the model had captured while reading the receipt image, which could be in any formate 
 
-b.#####recp_date is the column for storing the date into YYYY-mm-dd format.
+b.**recp_date** is the column for storing the date into YYYY-mm-dd format.
 
 c.I create this two date column as we can compare the actual date and converted date 
 
 5.when you scroll down you will notice the accuracy of the current model.
 
-####Lets say we used the data which i had mentioned 
+***Lets say we used the data which i had mentioned **
 
 Total receipt 595
 
@@ -53,7 +53,7 @@ real accuracy:  82.02%
 
 but the model might mention accuracy as  65.714% = 391/595*100
 
-####Here is the reason why its 82.02%
+**Here is the reason why its 82.02%**
 
 as in that data, not all images are clear and some of them don't even have the date and some images are not clear at all (like even human cant easily identify it)
 
@@ -70,7 +70,7 @@ So, the total count should be == date found + date not mentioned and date not cl
 That's why the actual accuracy is 82.02%
 
 
-###Note:
+###### **Note:**
 
 multiple_recipt.py is used to find accuracy for multiple images
 
