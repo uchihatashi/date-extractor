@@ -43,7 +43,7 @@ c.I create this two date column as we can compare the actual date and converted 
 
 5.when you scroll down you will notice the accuracy of the current model.
 
-***Lets say we used the data which i had mentioned **
+**Lets say we used the data which i had mentioned**
 
 Total receipt 595
 
